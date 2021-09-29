@@ -1,0 +1,47 @@
+body{
+    background: rgb(138, 206, 238);
+}
+.wrapper-header{
+    background: rgb(58, 146, 112);
+
+}
+.wrapper-navigation{
+    background: rgb(36, 129, 17);
+
+
+}
+.Aside{
+    background: rgb(199, 230, 24);
+    grid-area: asi;
+}
+.Content{
+    background: rgb(27, 153, 236);
+    grid-area: con;
+}
+.Section{
+    background: rgb(10, 73, 116);
+    grid-area: sec;
+}
+.wrapper-footer{
+    background: rgb(58, 146, 112);
+
+}
+p{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.card-grids{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+    grid-template-areas:
+      "asi con con con"
+      "asi sec sec sec";
+    /* grid-auto-rows: 380px; */
+  }
+  
+  .conteiner{
+      padding: 20px 20px 20px;
+  }
